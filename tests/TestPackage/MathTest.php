@@ -25,6 +25,8 @@ class MathTest extends PhpUnit
         $math =new Math();
         $soma = $math->soma($this->x,$this->y);
 
+        $this->assertEquals($math, new Math());
+
         $this->assertEquals($this->total, $soma);
     }
 }
