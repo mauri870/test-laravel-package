@@ -1,0 +1,25 @@
+{
+    "name": "root/test-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mauri de Souza Nunes",
+            "email": "mauri870@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/http": "~5.1",
+        "illuminate/contracts": "~5.1",
+        "illuminate/support": "~5.1",
+        "illuminate/database": "~5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mauri870\\Test\\": "src/TestPackage/"
+        }
+    }
+}
