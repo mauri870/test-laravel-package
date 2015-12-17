@@ -20,7 +20,7 @@ class ModelTest extends AbstractTestCase
     }
 
     public function test_check_if_a_data_can_be_persisted(){
-        //$model= Test::create(['name'=>'Teste','description'=>'Descrição']);
-        //$this->assertEquals('Teste',$model->name);
+        $model= Test::create(['name'=>'Teste','description'=>'Descrição']);
+        $this->assertEquals('Teste',$model->name);
     }
 }
